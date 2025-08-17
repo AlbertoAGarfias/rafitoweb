@@ -1,0 +1,8 @@
+[
+  { "src": "/product1.jpg", "alt": "Quiet Book portada", "desc": "Quiet Book portada personalizada" },
+  { "src": "/product2.jpg", "alt": "Quiet Book actividades", "desc": "Página de actividades de motricidad fina" },
+  { "src": "/product3.jpg", "alt": "Quiet Book colores", "desc": "Página de aprendizaje de colores y formas" },
+  { "src": "/product4.jpg", "alt": "Quiet Book números", "desc": "Página de números y conteo" },
+  { "src": "/product5.jpg", "alt": "Quiet Book texturas", "desc": "Página sensorial de texturas" },
+  { "src": "/product6.jpg", "alt": "Quiet Book hábitos", "desc": "Página de hábitos y rutinas diarias" }
+]
