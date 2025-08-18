@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Juguetes Creativos Rafito</title>
-    <meta name="description" content="Juguetes artesanales didácticos inspirados en Montessori, diseñados para el aprendizaje y desarrollo de tu bebé." />
-  </head>
-  <body class="bg-gradient-to-b from-pink-100 to-blue-100">
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rafitoweb - Sitio Educativo Infantil</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Rafitoweb" class="logo">
+    <h1>Bienvenido a Rafitoweb</h1>
+    <nav>
+      <ul class="menu" id="menu">
+        <li class="menu-item"><a href="#inicio">Inicio</a></li>
+        <li class="menu-item"><a href="#juegos">Juegos</a></li>
+        <li class="menu-item"><a href="#aprender">Aprender</a></li>
+        <li class="menu-item"><a href="#contacto">Contacto</a></li>
+      </ul>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2 id="inicio">¡Explora y aprende jugando!</h2>
+      <p>Elige una sección para empezar a divertirte y aprender.</p>
+    </section>
+    <section>
+      <h2 id="juegos">Juegos</h2>
+      <p>Descubre juegos educativos pensados para ti.</p>
+    </section>
+    <section>
+      <h2 id="aprender">Aprender</h2>
+      <p>Material didáctico, videos y actividades.</p>
+    </section>
+    <section>
+      <h2 id="contacto">Contacto</h2>
+      <p>¿Tienes sugerencias? ¡Escríbenos!</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Rafitoweb - Proyecto educativo infantil</p>
+  </footer>
+  <script src="menu.js"></script>
+</body>
 </html>
